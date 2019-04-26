@@ -1,0 +1,416 @@
+* {
+    
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body {
+        overflow-x: hidden;
+        
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        
+    }
+    
+  
+    
+   
+    
+    
+   
+    
+    
+    /*NAVIGATION*/
+    
+/*NAVIGATION*/
+
+
+.navbar {
+    background-color: white;
+        background: rgba(255,255,255,0.9);
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+  
+    height: 75px;
+    max-width:100%; 
+    
+    
+    
+}
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+  }
+
+.socialList li a {
+    display: inline-block;
+    color: #F05B60;
+    height: 30px;
+    font-size: 14px;
+    margin: 20px 0px 0px;
+    border: 2px solid;
+    text-align: center;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 28px;
+}
+.socialList li a:hover, .socialList li a:focus {
+    color: #000;
+    border: 2px solid;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+/*HEADER*/
+        
+#jumbotron{
+        height: 570px;
+    width: 100%;
+    margin-top: 75px;
+    padding: 60px 0 30px;
+    
+    background-image: url('images/main_wall.jpg');
+   background-position: topcenter;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+.header .hand1 img {
+    
+    height: 700px;
+    width: 490px;
+    margin: -30px 0px 0px -50px;
+
+}
+
+.header  .hand3 a img {
+    
+    height: 47px;
+    width: 170px;
+    margin: 30px 0px 0 -90px;
+}
+
+
+.header h1 {
+    
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 150px;  
+    margin: 0px 0px 0px -80px;
+}
+
+.header h1,
+.header p,
+.header button {
+    
+    margin-top: 20px;
+}
+
+.header .btn {
+    
+    border-radius: 0;
+    margin: 40px 20px;
+}
+
+@media(max-width:768px) {
+    
+    .header {
+        
+        padding: 30px;
+        height: 750px;
+    }
+    
+    .header img {
+        
+        width: 90%;
+        height: 300px;
+        margin: 20px 0 0 20px;
+    }
+
+
+ .header .btn {
+        
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    
+    .header row h1 {
+        
+        font-size: 20px;
+        margin-top: 1000px
+    }
+    
+    .header p {
+        
+        font-size: 10px;
+    }
+}
+
+
+
+.demo i {
+    position: center;
+    border: 20px;
+    border-color: red;
+    height: 80px;
+    width: 80px;
+    padding: 18px;
+    font-size: 37px;
+    border-radius: 50%;
+    border: 3px solid #BADA55;
+    color: rgb(250, 241, 241);
+}
+
+.demo a:hover i {
+    
+color: #709963;
+border-color: black;
+}
+
+video {
+   
+    object-fit: contain;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 95px;
+    padding-bottom: 50px;
+}
+
+/*slider*/
+.slider {
+    height: 930px; 
+
+}
+
+
+
+
+
+/*FORM*/
+element.style {
+}
+@media (min-width: 992px)
+bootstrap.min.css:5
+.container {
+    width: 970px;
+}
+
+@media (min-width: 768px)
+bootstrap.min.css:5
+.container {
+    width: 750px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+.titleSection h2 {
+    margin-top: 50px;
+    margin-left: 520px;
+    margin-bottom: 100px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+   
+}
+    .form-control {
+    background: transparent;
+    border: 0px;
+    height: 55px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    background: #F4F4F4;
+    color: #161616;
+    outline: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 12px;
+    box-shadow: none;
+}
+
+
+
+}
+label {
+    font-weight: 500;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+}
+label {
+    cursor: default;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 13.3333px Arial;
+
+}
+
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+
+
+
+.btn-new, .downloadNumber {
+    background: #ff5a5f;ff5a5f
+}
+.btn-new:hover {
+  background: #DC3F56;  
+}
+.btn-new {
+    max-width: 250px;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    -webkit-backface-visibility : hidden;
+    -moz-osx-font-smoothing: grayscale;
+   
+    display: inline-block;
+    padding: 15px 30px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    letter-spacing: 1px;
+    cursor: pointer;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    margin-left: 430px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  
+}
+
+button, select {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}
+b
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    margin-top: 40px;
+    /*padding: 10px;*/
+    background: #29282b;
+    text-align: center;
+    padding: 5px 0 0;
+
+}
+
+
+.footer p{
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
